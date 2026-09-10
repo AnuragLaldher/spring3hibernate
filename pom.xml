@@ -107,6 +107,9 @@
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
+                        <configuration>
+                            <propertyName>jacoco.argLine</propertyName>
+                        </configuration>
                     </execution>
 
                     <!-- Generate Coverage Report -->
